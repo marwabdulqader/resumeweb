@@ -13,6 +13,10 @@
    padding-left: 20px;
  }
  /* Right Colum */
+/* text align*/
+#rightcolum{
+   text-align:center;
+ }
 /* First Square On Right: Header */
  .square1R {
    background: #001933;
