@@ -6,6 +6,7 @@
    height: 75em;
    border-bottom: 1px solid;
    border-bottom-color: #003366;
+   max-width:960px;
  }
  /* Right Colum */
 /* First Square On Right: Header */
@@ -101,7 +102,7 @@
    color: navy;
    margin-left: 2em;
    line-height: 10px;
-   padding: 2px;
+   padding: 3px;
  }
 /* Process Assistant work*/
  .position {
@@ -193,7 +194,7 @@ h3{
   left:26.7em;
   font-size: 25px;
   padding-bottom: -5em;
-  font-family:hebrew;
+  font: Arial, sans-serif;
 }
  .GWCC{
    position: absolute;
