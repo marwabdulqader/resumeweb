@@ -8,14 +8,9 @@
    border-bottom-color: #003366;
    margin-left: auto;
    margin-right: auto;
-   width: 10%;
-   padding-right:10em;
+   width: 29%;
  }
  /* Right Colum */
-/* text align*/
-#rightcolum{
-   text-align:right;
- }
 /* First Square On Right: Header */
  .square1R {
    background: #001933;
