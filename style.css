@@ -11,7 +11,7 @@ body {
   width: 29%;
   display: flex;
 }
-/* Right Colum */
+ /* Right Colum */
 /* First Square On Right: Header */
 .square1R {
   background: #001933;
@@ -97,7 +97,6 @@ h7 {
 }
 /* Work Experience Body*/
 #WorkExperience {
-  position: absolute;
   left: 296px;
   top: 520px;
   color: navy;
@@ -189,7 +188,6 @@ h13 {
 /* Right Colum: AWARDS*/
 /* Award Text*/
 h3{
- position: absolute;
  color: white;
  top: 27.8em;
  left:26.7em;
