@@ -17,8 +17,7 @@ body {
   background: #001933;
   height: 230px;
   width: 550px;
-  left: 320px;
-  top: 9px;
+
   border-top: 4px gainsboro solid;
   border-left: 4px gainsboro solid;
   border-bottom: 3px white solid;
@@ -57,22 +56,17 @@ body {
   background: #001933;
   height: 30px;
   width: 558px;
-  position: absolute;
-  left: -1px;
-  top: -20px;
+ 
 }
 /*About Me Text*/
 h16 {
   color: white;
-  top: -20px;
+ 
   font-size: 25px;
-  position: absolute;
 }
 /*About Me Body*/
 #AboutMe {
-  position: absolute;
-  left: 296px;
-  top: 284px;
+ 
   color: navy;
   font-size: 14px;
   margin-left: 2em;
@@ -84,21 +78,15 @@ h16 {
   background: #001933;
   height: 30px;
   width: 559px;
-  position: absolute;
-  left: -6px;
-  top: -30px;
 }
 /* Work Experience Text*/
 h7 {
   color: white;
-  top: -20px;
-  font-size: 20px;
-  position: absolute;
+ 
 }
 /* Work Experience Body*/
 #WorkExperience {
-  left: 296px;
-  top: 520px;
+  
   color: navy;
   margin-left: 2em;
   line-height: 10px;
@@ -134,23 +122,17 @@ h7 {
   background: #001933;
   height: 30px;
   width: 557px;
-  position: relative;
-  left: -0.5em;
-  top: -2em;
+
 }
 /* Education Text*/
 h10 {
   color: white;
-  top: -20px;
   font-size: 25px;
-  position: absolute;
   padding-bottom: -25px;
 }
 /* Education  Body*/
 #Education {
-  position: absolute;
-  left: 296px;
-  top: 720px;
+  
   color: navy;
   margin: 2em;
   line-height: 10px;
@@ -196,10 +178,7 @@ h3{
  font: Arial, sans-serif;
 }
 .GWCC{
-  position: absolute;
  color: navy;
- top: 41.7em;
- left:33em;
  font-size: 20px;
  padding-bottom: -5em;
  font-family:hebrew;
@@ -207,51 +186,37 @@ h3{
 }
 /* GCC Award: Honor List body*/
 .GCC,.GCC2{
- position: absolute;
  color: navy;
- top: 46.5em;
- left:33em;
  font-size: 20px;
  padding-bottom: -5em;
  font-family:hebrew;
  font-weight:bold;
 }
-.GCC2{
- top:47.6em;
-} 
 
 /* SKills Body */
  #Skills{
- position: absolute;
  left: 19em;
  color: navy;
  margin: 2em;
- top: 70em;
+
 }
 /* Skills Blue Box*/
 .square5R{
 background: #001933;
   height: 30px;
   width: 560px;
-  position: relative;
-  top: -5.5em;
-  left: -0.9em;
+ 
 }
 /* Skills text*/
 h14{
  color: white;
-  top: -4.7em;
   font-size: 25px;
-  position: relative;
   margin-bottom: 2px;
 }
 /* Skills Body*/
 h23{
 color: navy;
-position: absolute;
 margin: 2em;
-left: -2em;
-top: -4em;
 font-size: 18px;
 line-height: 30px;
 }
@@ -259,8 +224,6 @@ line-height: 30px;
 /* Start of LEFT Colum */ 
 /* Contact body*/
 #Contact{
-  position: relative;
-  top: 1.9em;
   color: navy;
   font-size: 16px;
   margin-left: 1opx;
@@ -291,8 +254,6 @@ h2{
 }
 /*volunteer body*/
 .Volunteer{
- position: relative;
-  top: 2em;
   color: navy;
   font-size: 16px;
 }
@@ -322,7 +283,6 @@ h5{
 /* Institues box*/
 .squareLogo{
  background:#001933;
- position: relative,bottom,left;
  width:310px;
  height:209px;
  margin-left:-40px;
