@@ -1,291 +1,40 @@
 body {
-  background: whitesmoke;
-  border-right: 565px solid;
-  padding: 2em;
-  border-color: gainsboro;
-  height: 78em;
-  border-bottom: 1px solid;
-  border-bottom-color: #003366;
-  margin-left: auto;
-  margin-right: auto;
-  width: 29%;
-  display: flex;
-}
- /* Right Colum */
+    background: whitesmoke;
+    border-right: 565px solid;
+    padding: 2em;
+    border-color: gainsboro;
+    height: 78em;
+    border-bottom: 1px solid;
+    border-bottom-color: #003366;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+    display: flex;
+  }
+  #rightColum{
+    margin-left: 7.5em;
+    margin-top:-29px
+  }
+  /* Right Colum */
 /* First Square On Right: Header */
-.square1R {
-  background: #001933;
-  display: flex;
-  height: 230px;
-  width: 550px;
-
-  border-top: 4px gainsboro solid;
-  border-left: 4px gainsboro solid;
-  border-bottom: 3px white solid;
-}
-/* Box Inside #1 Box in Right Colum*/
-/* name + OverView*/
-.box {
-   width:410px;
-   height:150px;
-   margin:auto;
-   border:3px solid ;
-   border-color: white;
-   margin-top:20px;
-   left: 380px;
-   top: 1.7em;
-}
-.name {
-   text-align: center;
-   padding-top: 10px;
-   border-bottom: 2px solid;
-   padding-bottom: 4px;
-   font: arabic-indic;
-   font-size: 40px;
-   color: white;
-}
-.overview{
-   padding-top: 1em;
-   font: arabic-indic;
-   font-size: 14px;
-   margin-left: 2em;
-   margin-right: 2em;
-   color: white;
-}
-/*About Me blue box*/
-.square2R {
-  background: #001933;
-  height: 30px;
-  width: 558px;
- 
-}
-/*About Me Text*/
-h16 {
-  color: white;
- 
-  font-size: 25px;
-}
-/*About Me Body*/
-#AboutMe {
- 
-  color: navy;
-  font-size: 14px;
-  margin-left: 2em;
-  margin-right: 2em;
-  padding: 10px;
-}
-/* Work Experience Blue box*/
-.square3R {
-  background: #001933;
-  height: 30px;
-  width: 559px;
-}
-/* Work Experience Text*/
-h7 {
-  color: white;
- 
-}
-/* Work Experience Body*/
-#WorkExperience {
-  
-  color: navy;
-  margin-left: 2em;
-  line-height: 10px;
-  padding: 3px;
-}
-/* Process Assistant work*/
-.position {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2px;
-}
-/* Team Leader Work*/
-.position1 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2px;
-  padding-top: 25px;
-}
-/*Companies: Amazon & Panda*/
-.company {
-  font: arabic-indic;
-  font-size: 17px;
-  padding-left: 7px;
-}
-/* Data of employment*/
-.date {
-  font-size: 13px;
-  line-height: 2px;
-  font-weight: italic;
-}
-/* Blue Box for Education*/
-.square4R {
-  background: #001933;
-  height: 30px;
-  width: 557px;
-
-}
-/* Education Text*/
-h10 {
-  color: white;
-  font-size: 25px;
-  padding-bottom: -25px;
-}
-/* Education  Body*/
-#Education {
-  
-  color: navy;
-  margin: 2em;
-  line-height: 10px;
-}
-/* Education Institution: YearUp, GWCC,GCC */
-h20,
-h12,
-h13 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 10px;
-}
-/* Education: Degrees Earned */
-.degree {
-  line-height: 8px;
-  font-size: 14px;
-  font-family: sans-serif;
-  margin: 10px;
-}
-/* Education Major*/
-.Major {
-  line-height: -1em;
-  font-size: 12px;
-  font-family: sans-serif;
-  margin: 10px;
-}
-/* Graduation Date*/
-.dateE {
-  line-height: -1em;
-  font-size: 12px;
-  font-family: sans-serif;
-  margin: 8px;
-  padding-bottom: 20px;
-}
-/* Right Colum: AWARDS*/
-/* Award Text*/
-h3{
- color: white;
- top: 27.8em;
- left:26.7em;
- font-size: 25px;
- padding-bottom: -5em;
- font: Arial, sans-serif;
-}
-.GWCC{
- color: navy;
- font-size: 20px;
- padding-bottom: -5em;
- font-family:hebrew;
- font-weight:bold;
-}
-/* GCC Award: Honor List body*/
-.GCC,.GCC2{
- color: navy;
- font-size: 20px;
- padding-bottom: -5em;
- font-family:hebrew;
- font-weight:bold;
-}
-
-/* SKills Body */
- #Skills{
- left: 19em;
- color: navy;
- margin: 2em;
-
-}
-/* Skills Blue Box*/
-.square5R{
-background: #001933;
-  height: 30px;
-  width: 560px;
- 
-}
-/* Skills text*/
-h14{
- color: white;
-  font-size: 25px;
-  margin-bottom: 2px;
-}
-/* Skills Body*/
-h23{
-color: navy;
-margin: 2em;
-font-size: 18px;
-line-height: 30px;
-}
-/* END OF RIGHT COLUM */ 
-/* Start of LEFT Colum */ 
-/* Contact body*/
-#Contact{
-  color: navy;
-  font-size: 16px;
-  margin-left: 1opx;
-  margin-right: 2px;
-  line-height: 2px;
-}
-/* Contact Text*/
-h1{
- font-size:33px;
- font-family:hebrew;
- line-height:1px;
-}
-/* Organization body */
-#Organization{
-  padding-top:0.4em;
-  line-height: 6px;
-  color: navy;
-  font-size:16px;
-  font-family:hebrew;
-}
-/* Organizations text*/
-h2{
- font-size:32px;
- font-family:hebrew;
- line-height:1px; 
- padding-top:-4em;
- margin-bottom:0.6em;
-}
-/*volunteer body*/
-.Volunteer{
-  color: navy;
-  font-size: 16px;
-}
-/*Volunteer*/
-h4{
- font-size:33px;
- font-family:hebrew;
- margin-bottom:0.6em;
- margin-top:1.3em;
-}
-/*languages*/
-#languages{
-padding-top:0.6em;
-  line-height: 5px;
-  color: navy;
-  font-size:16px;
-  font-family:hebrew;
-  margin-top:0.4em;
-}
-/*languages Text*/
-h5{
- font-size:33px;
- font-family:hebrew;
- margin-bottom:0.6em;
- margin-top:1.5em;
-}
-/* Institues box*/
-.squareLogo{
- background:#001933;
- width:310px;
- height:209px;
- margin-left:-40px;
-}
-
+  .square1R {
+    background: #001933;
+    display: flex;
+    height: 230px;
+    width: 550px;
+    border-top: 4px gainsboro solid;
+    border-left: 4px gainsboro solid;
+    border-bottom: 3px white solid;
+  }
+  /* Box Inside #1 Box in Right Colum*/
+  /* name + OverView*/
+  .box {
+     width:410px;
+     height:150px;
+     margin:auto;
+     border:3px solid ;
+     border-color: white;
+     margin-top:20px;
+     left: 380px;
+     top: 1.7em;
+  }
